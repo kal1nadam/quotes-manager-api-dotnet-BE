@@ -1,0 +1,35 @@
+# Ignore the appsettings.Development.json file
+appsettings.Development.json
+
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Ignore publish output
+publish/
+
+# Ignore environment configuration files
+appsettings.*.json
+!appsettings.json   # but keep the main appsettings.json file
+
+# Ignore secrets
+secrets.json
+
+# Ignore IDE files (for example, Visual Studio)
+.vscode/
+.idea/
+.ionide/
+*.code-workspace
+
+# Ignore package manager directories
+node_modules/
