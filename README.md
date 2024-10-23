@@ -2,6 +2,13 @@
 
 A **.NET Web API** backend for managing quotes with role-based access using **Entity Framework**, **SQLite**, and **JWT tokens** for authentication. The API provides endpoints for managing quotes, user registration, and authentication.
 
+## Frontend Repository
+
+The frontend for this API is built using React and TypeScript with the Mantine component library. You can find the frontend repository here:
+
+[Frontend Repository - quotes-manager-proj-react-FE](https://github.com/kal1nadam/quotes-manager-proj-react-FE)
+
+
 ## Features
 
 - **CRUD Operations**: Create, read, update, and delete quotes.
