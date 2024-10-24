@@ -193,10 +193,10 @@ public class QuotesController : ControllerBase
         // Update tags
         // Create new records
         var newTags = request.Tags.Select(t => new QuoteTag { Type = t }).ToList();
+        quote.Tags.Clear();
         quote.Tags = newTags;
 
-        _dbContext.Update(quote);
-
+        await _dbContext.SaveChangesAsync();
         return Ok();
     }
     
