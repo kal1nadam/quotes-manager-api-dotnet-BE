@@ -54,13 +54,13 @@ Ensure you have the following installed on your local development environment:
 3. Apply migrations to set up the SQLite database:
    
    ```bash
-   dothet ef database update
+   dotnet ef database update
    ```
 
 4. Run the API:
 
    ```bash
-   dothet run
+   dotnet run
    ```
 
 
